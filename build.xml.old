@@ -1,0 +1,8 @@
+<project name="entero" basedir=".">
+	<target name="compila">
+		<javac srcdir="." destdir="."/>
+	</target>
+	<target name="test" depends="compila">
+		<java classname="TestEntero" classpath="."/>
+	</target>
+</project>
